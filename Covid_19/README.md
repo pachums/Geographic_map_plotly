@@ -5,9 +5,11 @@ Anaálisis del COVID.
 ## Dashboard
 Para visualizar los datos de una forma sencilla y visual, puedes usar el dashboard desplegado con Redash, disponible en http://localhost/public/dashboards/3JJKFpOF7Fx5ES73vnFFRbTx5VoiqEx4ZP2rL895 . Para realizar modificaciones en el dashboard, entrar en http://localhost/dashboard/covid-19-espa-a e iniciar sesión con el usuario `covid_dashboard@noreply.com` y la contraseña `nonecesitocontrasenha`.
 
-![hospitalizaciones](/readme_screenshots/dashboard_hospitalizaciones.png)
-![muertes](/readme_screenshots/dashboard_muertes.png)
-![vacunación y transmisión](/readme_screenshots/dashboard_vacunacion_transmision.png)
+![hospitalizaciones](/imagenes/datos_temporal.png)
+![muertes](/imagenes/datos_gedad.png)
+![vacunación y transmisión](/imagenes/datos_ccaa.png)
+![vacunación y transmisión](/imagenes/datos_sexo.png)
+![vacunación y transmisión](/imagenes/mortalidad_vacunacion.png)
 
 
 ## Estructura de archivos:
