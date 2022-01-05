@@ -4,11 +4,11 @@ Para la visualización de los datos: **[enlace](https://nbviewer.org/github/pach
 
 ## Dashboard
 
-![datos temporales](/imagenes/datos_temporal.png)
-![datos por grupo de edad](/imagenes/datos_gedad.png)
-![datos por ccaa](/imagenes/datos_ccaa.png)
-![datos por sexo y semana](/imagenes/datos_sexo.png)
-![mortalidad y vacunación](/imagenes/mortalidad_vacunacion.png)
+![datos temporales](imagenes/datos_temporal.png)
+![datos por grupo de edad](imagenes/datos_gedad.png)
+![datos por ccaa](imagenes/datos_ccaa.png)
+![datos por sexo y semana](imagenes/datos_sexo.png)
+![mortalidad y vacunación](imagenes/mortalidad_vacunacion.png)
 
 
 ## Estructura de archivos:
