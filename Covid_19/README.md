@@ -1,15 +1,14 @@
 # Panel COVID
-Anaálisis del COVID.
+Para la visualización de los datos: **[enlace](https://nbviewer.org/github/pachums/python_projects/blob/main/Covid_19/resumen_covid.ipynb)**
 
 
 ## Dashboard
-Para visualizar los datos de una forma sencilla y visual, puedes usar el dashboard desplegado con Redash, disponible en http://localhost/public/dashboards/3JJKFpOF7Fx5ES73vnFFRbTx5VoiqEx4ZP2rL895 . Para realizar modificaciones en el dashboard, entrar en http://localhost/dashboard/covid-19-espa-a e iniciar sesión con el usuario `covid_dashboard@noreply.com` y la contraseña `nonecesitocontrasenha`.
 
-![hospitalizaciones](/imagenes/datos_temporal.png)
-![muertes](/imagenes/datos_gedad.png)
-![vacunación y transmisión](/imagenes/datos_ccaa.png)
-![vacunación y transmisión](/imagenes/datos_sexo.png)
-![vacunación y transmisión](/imagenes/mortalidad_vacunacion.png)
+![datos temporales](/imagenes/datos_temporal.png)
+![datos por grupo de edad](/imagenes/datos_gedad.png)
+![datos por ccaa](/imagenes/datos_ccaa.png)
+![datos por sexo y semana](/imagenes/datos_sexo.png)
+![mortalidad y vacunación](/imagenes/mortalidad_vacunacion.png)
 
 
 ## Estructura de archivos:
