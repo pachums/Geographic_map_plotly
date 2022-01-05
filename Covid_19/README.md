@@ -1,21 +1,10 @@
 # Panel COVID
 Para la visualización de los datos: **[enlace](https://nbviewer.org/github/pachums/python_projects/blob/main/Covid_19/resumen_covid.ipynb)**
 
-
-## Dashboard
-
-![datos temporales](imagenes/datos_temporal.png)
-![datos por grupo de edad](imagenes/datos_gedad.png)
-![datos por ccaa](imagenes/datos_ccaa.png)
-![datos por sexo y semana](imagenes/datos_sexo.png)
-![mortalidad y vacunación](imagenes/mortalidad_vacunacion.png)
-
-
 ## Estructura de archivos:
 - `ddatos_covid_tratados`: archivo base para el analisis.
 - `datos_periodo.csv`: datos covid separado por periodos
 - `poblacion_edad_sexo.csv`: datos sobre la poblacion, edad y sexo de las distintas CCAA.
-
 
 ## Fuentes de datos
 - **[Centro Nacional de Epidemiología](https://cnecovid.isciii.es/)**:
@@ -25,7 +14,6 @@ Para la visualización de los datos: **[enlace](https://nbviewer.org/github/pach
 	- **Número de ingresos en la UCI**
 	- **Número de defunciones**
     
-
 ## Datos disponibles en la base de datos
 - *datos_covid_tratados*:
         - `fecha`: fecha de recogida de datos
@@ -60,6 +48,14 @@ Para la visualización de los datos: **[enlace](https://nbviewer.org/github/pach
         - `poblacion_agregada`: población total en función de sexo y cpro.
         - `porcentaje`: porcentaje de población total con respecto a la población agregada.
 	- `ccaa`: nombre de la Comunidad Autónoma
+
+## Visualizaciones
+
+![datos temporales](imagenes/datos_temporal.png)
+![datos por grupo de edad](imagenes/datos_gedad.png)
+![datos por ccaa](imagenes/datos_ccaa.png)
+![datos por sexo y semana](imagenes/datos_sexo.png)
+![mortalidad y vacunación](imagenes/mortalidad_vacunacion.png)
 
 ## Contacto 
 - Francisco Martínez Serrano <pachums97@gmail.com>
