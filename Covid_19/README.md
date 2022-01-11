@@ -8,7 +8,6 @@ Para la visualización de los datos: **[enlace](https://nbviewer.org/github/pach
 
 ## Fuentes de datos
 - **[Centro Nacional de Epidemiología](https://cnecovid.isciii.es/)**:
-    - Informe csv de evolución de la pandemia, publicado diariamente de lunes a viernes. *[Ejemplo del día 13 de enero de 2021](https://cnecovid.isciii.es/covid19/resources/casos_hosp_uci_def_sexo_edad_provres.csv)*.
         - **Número de casos**
         - **Número de hospitalizaciones**
 	- **Número de ingresos en la UCI**
