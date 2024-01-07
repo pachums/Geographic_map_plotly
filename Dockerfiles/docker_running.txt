@@ -1,0 +1,38 @@
+GEOPANDAS & PLOTLY
+docker run -p 8888:8888 -v C:/Users/franc/Desktop/github_repositories:/home/jovyan/work pachums/data-science-ml:v2.3
+
+PYSPARK
+docker run -p 8888:8888 -v C:/Users/franc/Desktop/github_repositories:/home/jovyan/work jupyter/pyspark-notebook:latest
+
+CLOUDBUTTON
+docker run -p 8888:8888 -v C:/Users/franc/Desktop/DockerSave:/home/jovyan/work mavsonnen/jupy-notebook:geosv2
+
+
+-> Basic Docker:
+Show images: docker image
+Containers in execution: docker ps
+Stop container: docker stop <id>
+Remove image: docker rmi -f <id>
+Stop all docker containers: FOR /f "tokens=*" %i IN ('docker ps -q') DO docker stop %i
+
+-> Update Docker:
+docker build -t pachums/data-science-ml:v2.4 .
+https://www.whitesourcesoftware.com/free-developer-tools/blog/update-docker-images/
+
+-> Pushing a Docker container image to Docker Hub
+docker login
+docker tag pachums/data-science:v1 pachums/data-science-ml:v2.3
+docker push pachums/data-science-ml:v2.3
+
+
+
+INICIO DE SCRIPT:
+
+Se pueden instalar las librerias o utilizar un **docker** que se ha creado para el experimento, para utilizarlo es necesario descargar **<a href="https://www.docker.com/products/docker-desktop">Docker Desktop</a>** y descargar la imagen del docker con el siguiente comando:
+```
+docker pull pachums/data-science-ml:v2.3
+```
+A continuación creamos un container de a partir de la imagen, hemos de definir el directorio donde se alojará el archivo:
+```
+docker run -p 8888:8888 -v <URL>:/home/jovyan/work pachums/data-science-ml:v2.3
+```
